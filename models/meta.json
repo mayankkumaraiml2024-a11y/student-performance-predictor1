@@ -1,0 +1,54 @@
+{
+  "columns": [
+    "hours_studied",
+    "attendance",
+    "sleep_hours",
+    "previous_score",
+    "assignments_completed",
+    "internet_access",
+    "extra_classes",
+    "parental_education"
+  ],
+  "numeric": {
+    "hours_studied": {
+      "min": 0.5,
+      "max": 13.9,
+      "median": 6.0
+    },
+    "attendance": {
+      "min": 43.0,
+      "max": 100.0,
+      "median": 80.0
+    },
+    "sleep_hours": {
+      "min": 3.5,
+      "max": 10.0,
+      "median": 6.8
+    },
+    "previous_score": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 65.0
+    },
+    "assignments_completed": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 74.0
+    }
+  },
+  "categorical": {
+    "internet_access": [
+      "No",
+      "Yes"
+    ],
+    "extra_classes": [
+      "No",
+      "Yes"
+    ],
+    "parental_education": [
+      "Graduate",
+      "High School",
+      "Postgraduate"
+    ]
+  }
+}
